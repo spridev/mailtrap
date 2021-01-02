@@ -1,0 +1,38 @@
+{
+  "name": "mailtrap",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "smtp",
+    "email",
+    "server",
+    "testing"
+  ],
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/hapi": "^20.0.3",
+    "dotenv": "^8.2.0",
+    "mailparser": "^3.0.1",
+    "smtp-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.x.x",
+    "standard": "16.x.x"
+  },
+  "scripts": {
+    "watch": "nodemon lib/index.js",
+    "start": "node lib/index.js",
+    "lint": "standard --fix"
+  },
+  "standard": {
+    "env": [
+      "es6",
+      "node"
+    ]
+  }
+}
