@@ -20,8 +20,8 @@ services:
       - 1025:1025
       - 8025:8025
     environment:
-      - MAILTRAP_USER: mail-user
-      - MAILTRAP_PASS: mail-pass
+      MAILTRAP_USER: mail-user
+      MAILTRAP_PASS: mail-pass
 ```
 
 ## API
