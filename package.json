@@ -15,14 +15,14 @@
   ],
   "dependencies": {
     "@hapi/basic": "^6.0.0",
-    "@hapi/hapi": "^20.1.2",
-    "dotenv": "^8.2.0",
-    "mailparser": "^3.1.0",
+    "@hapi/hapi": "^20.0.0",
+    "dotenv": "^10.0.0",
+    "mailparser": "^3.2.0",
     "smtp-server": "^3.8.0"
   },
   "devDependencies": {
-    "nodemon": "2.x.x",
-    "standard": "16.x.x"
+    "nodemon": "^2.0.0",
+    "standard": "^16.0.0"
   },
   "scripts": {
     "watch": "nodemon lib/index.js",
